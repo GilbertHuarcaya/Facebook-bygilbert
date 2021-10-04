@@ -8,7 +8,7 @@ import { useStateValue } from './StateProvider';
 import Widgets from './Widgets';
 
 function App() {
-  const [{ user }, dispatch] = useStateValue()
+  const [{ user }] = useStateValue()
 
   return (
     // Bem 
